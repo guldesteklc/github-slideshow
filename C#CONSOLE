@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp26
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int sayi;
+            Console.WriteLine("Bir sayı giriniz.");
+            sayi = Convert.ToInt32(Console.ReadLine());
+
+            while (sayi % 2 == 0)
+            {
+                Console.WriteLine("Çift sayı girdiniz.");
+                sayi = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine("Tek sayı girdiniz.");
+            Console.Read();
+
+        }
+    }
+}
