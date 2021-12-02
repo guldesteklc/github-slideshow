@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Covid-19 </title>
+</head>
+<body style="background-color:black;">
+<h1 style="color:green;" style="font-size: 60px;"> Covid-19 ile ilgili çalışmalar </h1>
+<h2 style="color:hotpink;" style="font-size:40;"> Yeni Araç, COVID Varyantlarını Daha Bulaşıcı Yapabilen Değişimleri Tahmin Ediyor</h2>
+<p style="color:white;"> <i>SARS-CoV-2</i> virüsü evrimleşmeye devam ettikçe, yeni varyantların ortaya çıkması ve bu varyantların konaklara daha iyi bulaşıp, konakların bağışıklık sistemlerinden daha iyi kaçabileceği düşünülüyor. Bulaştaki ilk önemli adım, virüsün çivi proteininin insan hücrelerindeki ACE2 reseptörüne bağlandığı zaman gerçekleşiyor. Penn State üniversitesinde çalışan araştırmacılar, virüsün insan hücrelerine daha iyi bağlanmasını sağlayabilecek ve virüsün bulaşıcılığını artırabilecek bu çivi proteinindeki amino asit değişimlerini uygun ölçüde tahmin edebilen yeni bir sistem oluşturmuşlar. Çalışma dün <i>PNAS </i> bülteninde yayımlandı. <br> <br>SARS-CoV-2’nin hesaplamalı takibine olanak sağlayabilecek araç, çok daha yüksek bağlanma eğilimi taşıyıp tehlikeli olabilecek varyantları önceden haber verebilir. Bu durum, virüsün yayılışını önlemek için yapılacak erken müdahalelere yardımcı olabilir ve hatta destekleyici aşı formülasyonlarına bilgi sağlayabilir.Penn State üniversitesi Hayvan Tanı Laboratuvarı yardımcı müdürü ve veterinerlik ile biyotıp bilimleri klinik profesörü olan Sureş Kuçipudi, “Yeni ortaya çıkan varyantlar, insanlarda ve diğer hayvanlarda yüksek oranda bulaşıcı olabilir” diyor. “Bu yüzden, hangi amino asit değişimlerinin virüsün bulaşıcılığını artırabileceğini önceden değerlendirmek büyük önem taşıyor. Bizim geliştirdiğimiz çerçeve, SARS-CoV-2 çivi proteininde meydana gelen ve virüsün insan ile birçok hayvan türündeki ACE2 reseptörlerine bağlanma kabiliyetini etkileyen amino asit değişimlerinin etkisini belirlemeye yönelik güçlü bir araç sunuyor. <br> <br> ”Araştırma takımı, SARS-CoV-2 çivi proteininin reseptör bağlanma bölgesindeki amino asitlerde (birbirine bağlanıp protein oluşturan moleküller), virüsün insan ve diğer hayvan hücrelerinin ACE2 reseptörlerine bağlanma kabiliyetini etkileyebilecek hangi değişimlerin meydana gelebileceğini tahmin etmek üzere yeni ve iki adımlı bir hesaplama süreci kullanmış. Kuçipudi’ye göre günümüzde dolaşım halinde olan varyantlar, diken proteininin reseptör bağlanma bölgesinde amino asit değişimlerine yol açan bir veya daha fazla mutasyon barındırıyor.
+</p>
+<img src=" https://i.popsci.com.tr/wp-content/uploads/2020/12/iStock-1283796622-696x392.jpg" width="300" height="300">
+<h3 style="color:orangered;"> Covid-19 Belirtileri </h3>
+<ol style="color:lightgoldenrodyellow;">
+	<li> Yüksek ateş </li>
+	<li> Öksürük </li>
+	<li> Kusma ve Bulantı </li>
+    <li> İshal </li>
+    <li> koku ve tat kaybı </li>
+    <li> Baş agrısı </li>
+</ol>
+<dl style="color:hotpink;">
+	<dd> covid-19 mutasyonları </dd>
+	<dt> delta </dt>
+	<dd> alfa </dd>
+	<dt> beta </dt>
+	<dd> gamma </dd>
+</dl>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KulbbYrIcYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
