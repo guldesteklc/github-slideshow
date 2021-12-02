@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp42
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] sayilar = new int[5];
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("Sayıyı Girin=");
+                sayilar[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            Array.Sort(sayilar);
+
+            Console.WriteLine(sayilar[4]);
+            Console.Read();
+
+        }
+    }
+}
