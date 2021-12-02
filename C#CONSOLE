@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp17
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string sehir;
+            Console.Write("Lütfen Şehri Giriniz.");
+            sehir = Console.ReadLine();
+
+            switch (sehir)
+            {
+                case "aydın":Console.Write("Aksaray ilinin Aydın`a uzaklığı 685 km`dir.");
+                    break;
+                case "bursa":Console.Write("Aksaray ilinin Bursa`ya uzaklığı 592 km`dir.");
+                    break;
+                case "eskişehir":Console.Write("Aksaray ilinin Eskişehir`e uzaklığı 443 km`dir.");
+                    break;
+                case "izmir":Console.Write("Aksaray ilinin İzmir`e uzaklığı 692 km`dir.");
+                    break;
+                case "muğla":Console.Write("Aksaray ilinin Muğla`ya uzaklığı 704 km`dir.");
+                    break;
+                case "sivas":Console.Write("Aksaray ilinin Sivas`a uzaklığı 352 km`dir.");
+                    break;
+                case "osmaniye":Console.Write("Aksaray ilinin Osmaniye`ye uzaklığı 351 km`dir.");
+                    break;
+                case "trabzon":Console.Write("Aksaray ilinin Trabzon`a uzaklığı 775 km`dir.");
+                    break;
+                default:Console.Write("Bu şehir hafızada mevcut değil :( ");
+                    break;
+            }
+            Console.ReadLine();
+
+        }
+    }
+}
