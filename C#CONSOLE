@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp20
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int j;
+            for (j = 0; j <= 200; j += 8)
+            {
+                Console.WriteLine(j);
+            }
+            Console.ReadLine();
+
+        }
+    }
+}
+/*
+ * a+=1
+ * a++ ya eşit.
+ * a+=2
+ * a+2 aynı değil.
+*/
