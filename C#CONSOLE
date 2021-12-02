@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string ad, soyad, yas, meslek, sehir;
+            Console.WriteLine("Lütfen Sırasıyla Ad,Soyad,Yas,Meslek,Sehir Giriniz...");
+
+            ad = Console.ReadLine();
+            soyad = Console.ReadLine();
+            yas = Console.ReadLine();
+            meslek = Console.ReadLine();
+            sehir = Console.ReadLine();
+
+            Console.WriteLine("Ad: " + ad);
+            Console.WriteLine("Soyad: " + soyad);
+            Console.WriteLine("Yas: " + yas);
+            Console.WriteLine("Meslek: " + meslek);
+            Console.WriteLine("Sehir:" + sehir);
+
+            Console.Read();
+
+         }
+    }
+}
