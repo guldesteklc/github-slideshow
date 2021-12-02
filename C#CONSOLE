@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp13
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string mevsim;
+            Console.Write("Lütfen bir mevsim giriniz.");
+            mevsim = Console.ReadLine();
+
+            if (mevsim =="kış")
+            {
+                Console.WriteLine("Kış Mevsimi Ayları: Aralık,Ocak,Şubat");
+            }
+            else if (mevsim=="ilkbahar")
+             {
+                Console.Write("İlkbahar Mevsimi Ayları: Mart,Nisan,Mayıs");
+            }
+            else if (mevsim=="yaz")
+            {
+                Console.Write("Yaz Mevsimi Ayları: Haziran,Temmuz,Ağustos");
+            }
+            else if (mevsim == "sonbahar")
+            {
+                Console.Write("Sonabar Mevsimi Ayları:Eylül,Ekim,Kasım");
+            }
+            
+           Console.ReadLine();
+
+        }
+    }
+}
