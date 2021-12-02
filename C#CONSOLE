@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp37
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] degerler = { 1, 2, 3, 4, 5, 6 };
+            int sonuc = 1;
+            foreach (int i in degerler)
+            {
+                sonuc = sonuc * i ;
+            }
+            Console.Write("6 Sayısının Faktöriyeli: " + sonuc);
+            Console.Read();
+
+        }
+    }
+}
