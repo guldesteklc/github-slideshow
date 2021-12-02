@@ -1,0 +1,42 @@
+using System;
+
+namespace ConsoleApp48
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i;
+            int sayi;
+            int fakt;
+
+            Console.Write("1.Faktoryeli Bulunacak Sayıyı Giriniz: ");
+            sayi = Convert.ToInt32(Console.ReadLine());
+            fakt = sayi;
+            for (i = sayi - 1; i >= 1; i--)
+            {
+                fakt = fakt * i;
+            }
+            Console.WriteLine("1.Sayının Faktörleyi: " + fakt + "\n");
+
+            int i1;
+            int sayi1;
+            int fakt1;
+
+            Console.Write("2.Faktoryeli Bulunacak Sayıyı Giriniz: ");
+            sayi1= Convert.ToInt32(Console.ReadLine());
+            fakt1 = sayi1;
+            for (i = sayi1 - 1; i >= 1; i--)
+            {
+                fakt1 = fakt1 * i;
+            }
+            Console.WriteLine("2.Sayının Faktörleyi: " + fakt1 + "\n");
+            Console.WriteLine("***************************************");
+            Console.WriteLine("2 Sayının Faktöryel  Farkı: " + (int)Math.Pow((fakt - fakt1), 2));
+            Console.ReadLine();
+
+
+
+        }
+    }
+}
